@@ -6,4 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CIRepository extends JpaRepository<CIEntity, Long> {
+
+    CIEntity findByNameContaining(String name);
+
 }
