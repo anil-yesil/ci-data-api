@@ -5,7 +5,7 @@ import lombok.Value;
 @Value
 public class CIEntity {
 
-    int id;
+    Long id;
     String name;
     String CItype;
     String applicationDate;
